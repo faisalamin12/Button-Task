@@ -1,0 +1,61 @@
+button {
+    border: none;
+    margin: 20px 20px;
+    }
+.button1 {
+    background-color: rgb(180, 24, 24);
+    border: none;
+    color: white;
+    padding: 25px 60px;
+}
+
+.button1:hover{
+    background-color: blue;
+}
+
+.button2 {background-color: blue;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #159957 , #155799);  
+    padding: 14px;
+    width: 112px;
+}
+
+.button3 {background-color: whitesmoke;
+    border-radius: 11px;
+    border: 2px solid blue;
+    color: blue;
+    padding: 18px;
+    width: 98px;
+}
+
+.button4 { color: red;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 30px;}
+.button5{
+    color: blue;
+    background-color: yellow;
+    border: 2px solid blue;
+    padding: 0px;
+    width: 93px;
+}
+.button6 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: goldenrod;
+    color: whitesmoke;
+    padding: 0px;
+    width: 154px ;
+    border-radius: 10px;
+  }
+.fa-stack-2x{
+    font-size: 2em;
+}
+.fa-stack-1x{
+    line-height: inherit;
+}
+.fa-stack-1x, .fa-stack-2x{
+    position: absolute;
+    left: 0;
+    text-align: center;
+    color: blue;
+}
